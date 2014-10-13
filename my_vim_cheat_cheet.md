@@ -104,7 +104,11 @@ gUis
 - <C-I> - Jumplist forward
 - :jumps
 
+### Shell
 
+- :shell - goto Shell, ctrl-d to exit
+- :2,$!sort -t',' -k2 - sort lines from 2 to end by column 2
+- Tipp: line selection with "V" 
 
 
 
