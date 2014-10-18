@@ -108,7 +108,7 @@ gUis
 
 - :shell - goto Shell, ctrl-d to exit
 - :2,$!sort -t',' -k2 - sort lines from 2 to end by column 2
-- Tipp: line selection with "V" 
+- Tipp: line selection with "V"
 
 
 
@@ -116,3 +116,10 @@ gUis
 
 - :set autowriteall - auto save
 - Plugin: wookiehangover/jshint.vim
+
+### Bookmarks
+
+- :marks - list all bookmarks
+- ma - set bookmark to "a"
+- 'a - jump to bookmark "a"
+- '' - jump to previous position
