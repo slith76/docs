@@ -110,8 +110,6 @@ gUis
 - :2,$!sort -t',' -k2 - sort lines from 2 to end by column 2
 - Tipp: line selection with "V"
 
-
-
 ### Watchlist
 
 - :set autowriteall - auto save
@@ -123,3 +121,20 @@ gUis
 - ma - set bookmark to "a"
 - 'a - jump to bookmark "a"
 - '' - jump to previous position
+
+### Fugitive Notes (Git Plugin)
+
+- :Gstatus
+- <C-p> <C-n> - jumping through status messages
+- (-) - git add File(s) also in visual mode
+- :Git add . - for many Files
+- Shift-c - fast commit mode in Gstatus
+
+### Basics of editing
+
+- ea - append at the end of the word
+- gea - append at the end of the previos word
+
+### quoteplus register (clipboard)
+
+- :put +
